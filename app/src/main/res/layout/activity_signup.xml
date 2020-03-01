@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    android:background="#C3E7EE"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Signup">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteY="31dp"
+        tools:layout_editor_absoluteX="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:text="First Name:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name"
+        android:textColor="#ffffff"
+        android:fontFamily="Arial"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="133dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView3"
+
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:text="Middle Name:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:fontFamily="Arial"
+        android:hint="Middle Name"
+        android:inputType="textPersonName"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:text="Last Name:"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        android:textColor="#ffffff"
+        android:fontFamily="Arial"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView2" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:text="Mobile No:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:hint="Mobile No"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="phone"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+
+        android:text="Email id:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginStart="-6dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:hint="example@yahoo.com"
+        android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/editText7"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:text="Username:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText9"
+        android:ems="10"
+        android:fontFamily="Arial"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/editText7"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+
+        android:text="Password:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText6"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Sign Up"
+        android:textSize="24dp"
+        android:elevation="10dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:onClick="goto3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText7"
+        android:ems="10"
+        android:text="Gender:"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="255dp"
+        android:layout_height="80dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editText7">
+
+        <RadioButton
+            android:id="@+id/Male"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:onClick="radio"
+            android:text="Male"
+
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Female"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="radio"
+            android:text="Female"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Other"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="radio"
+            android:text="Other"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+</android.widget.RelativeLayout>
